@@ -5,15 +5,16 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/Masterminds/sprig"
-	"github.com/en30/toggl"
-	"github.com/urfave/cli"
 	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
 	"strconv"
 	"text/template"
+
+	"github.com/Masterminds/sprig"
+	"github.com/mitani24/toggl"
+	"github.com/urfave/cli"
 )
 
 type Config struct {
