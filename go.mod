@@ -1,4 +1,4 @@
-module mitani24/toggl2slack
+module github.com/mitani24/toggl2slack
 
 go 1.17
 
